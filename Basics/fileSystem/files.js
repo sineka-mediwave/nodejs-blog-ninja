@@ -4,7 +4,7 @@ const fs = require("fs");
 // reading files(Async) - it has two arguments
 //first - location of file to read
 //second - callback function after task done.
-/*
+
 fs.readFile("./docs/blog1.txt", (err, data) => {
   if (err) {
     console.log(err);
@@ -14,10 +14,9 @@ fs.readFile("./docs/blog1.txt", (err, data) => {
 });
 
 console.log("last line");
-*/
 
 //Writing files
-/*
+
 fs.writeFile("./docs/blog1.txt", "hello, stars", () => {
   console.log("written");
 });
@@ -26,10 +25,9 @@ fs.writeFile("./docs/blog1.txt", "hello, stars", () => {
 fs.writeFile("./docs/blog2.txt", "hello, ninjas", () => {
   console.log("written again");
 });
-*/
 
 //directories
-/*
+
 if (!fs.existsSync("./assets")) {
   fs.mkdir("./assets", (err) => {
     if (err) {
@@ -46,7 +44,6 @@ if (!fs.existsSync("./assets")) {
     console.log("folder deleted");
   });
 }
-*/
 
 //deleting files
 fs.unlink("./docs/blog2.txt", (err) => {

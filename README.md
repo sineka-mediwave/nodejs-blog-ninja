@@ -19,3 +19,9 @@ It handles the request coming from the website and runs the javascript code send
 - how to use MongoDB
 - How to use template engines to easily create HTML views
 - Put everything together to make a simple blog site.
+
+## Basics of Nodejs
+
+- global functions, creating modules
+- file system to create and delete file, read file, create and delete folder.
+- streams, starts using data before it has been finished loading
