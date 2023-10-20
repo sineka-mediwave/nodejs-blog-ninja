@@ -24,8 +24,33 @@ It handles the request coming from the website and runs the javascript code send
 
 - http:domain.name lookes up for the IP address associated for that.
 
-## LocalHost
+### LocalHost
 
 localhost is like a domain name on the web, it points directly to our own computer.
 
 - PortNumber are like 'doors' into a computer.
+
+### Request and Response
+
+```
+const server = http.createServer((req, res) => {
+  console.log(req.url, req.method);
+  res.setHeader("content-type", "text/plain");
+  res.write("hello");
+});
+```
+
+requesting html page
+
+```
+res.setHeader('content-type', 'text/html');
+fs.readfile('./views/index.html', (err, data)=> {
+    if(err){
+        console.log(err);
+        res.end();
+    }else{
+        res.write(data);
+        res.end();
+    }
+})
+```
