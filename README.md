@@ -24,4 +24,4 @@ It handles the request coming from the website and runs the javascript code send
 
 - global functions, creating modules
 - file system to create and delete file, read file, create and delete folder.
-- streams, starts using data before it has been finished loading
+- streams, starts using data before it has been finished loading.
