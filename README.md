@@ -20,8 +20,12 @@ It handles the request coming from the website and runs the javascript code send
 - How to use template engines to easily create HTML views
 - Put everything together to make a simple blog site.
 
-## Basics of Nodejs
+## Client and Server
 
-- global functions, creating modules
-- file system to create and delete file, read file, create and delete folder.
-- streams, starts using data before it has been finished loading.
+- http:domain.name lookes up for the IP address associated for that.
+
+## LocalHost
+
+localhost is like a domain name on the web, it points directly to our own computer.
+
+- PortNumber are like 'doors' into a computer.
